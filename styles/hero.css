@@ -1,0 +1,57 @@
+.hero {
+  grid-area: hero;
+  min-height: 708px;
+  height: 100%;
+  min-width: 1416px;
+  width: 100%;
+  background-image: url(/landing-2/img/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.hero__content_wrapper {
+  max-height: 276px;
+  height: 100%;
+  max-width: 550px;
+  width: 100%;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 120px;
+  padding-top: 216px;
+}
+
+.hero__mainHeading {
+  font-family: "OSBold";
+  font-size: 58px;
+  line-height: 68px;
+  letter-spacing: 1px;
+  margin: 0;
+  color: #ffffff;
+}
+
+.hero__headingText {
+  font-family: "OSLight";
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0.6px;
+  margin: 16px 0px 0px 0px;
+  color: #ffffff;
+}
+
+.hero_button {
+  font-family: "OSReg";
+  font-size: 22px;
+  line-height: 20px;
+  letter-spacing: 0.7px;
+  color: #ffffff;
+  background-color: #005bff;
+  height: 64px;
+  width: 208px;
+  margin: 32px 0px 0px 0px;
+  border: 0px;
+  border-radius: 8px;
+}
