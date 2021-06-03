@@ -1,57 +1,43 @@
 .hero {
-  grid-area: hero;
+  display: flex;
+  align-items: center;
   min-height: 708px;
-  height: 100%;
-  min-width: 1416px;
-  width: 100%;
-  background-image: url(/landing-2/img/hero.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
+  padding: 0 120px;
+  background: center center no-repeat;
   background-size: cover;
 }
 
-.hero__content_wrapper {
-  max-height: 276px;
-  height: 100%;
-  max-width: 550px;
-  width: 100%;
+.hero--main {
+  grid-area: heroMain;
+  background-image: url(/landing-2/img/hero.jpg);
 }
 
-.hero__content {
+.hero--second {
+  grid-area: heroSecond;
+  justify-content: flex-end;
+  background-image: url(/landing-2/img/hero-second-image.jpg);
+}
+
+.hero__info {
   display: flex;
   flex-direction: column;
-  padding-left: 120px;
-  padding-top: 216px;
+  align-items: flex-start;
+  max-width: 550px;
+  color: var(--c-white);
 }
 
-.hero__mainHeading {
-  font-family: "OSBold";
+.hero__infoTitle {
+  margin: 0 0 16px;
+  font-family: var(--f-bold);
   font-size: 58px;
   line-height: 68px;
   letter-spacing: 1px;
-  margin: 0;
-  color: #ffffff;
 }
 
-.hero__headingText {
-  font-family: "OSLight";
-  font-size: 22px;
+.hero_infoText {
+  margin: 0 0 32px;
+  font-family: var(--f-light);
+  font-size: 24px;
   line-height: 32px;
   letter-spacing: 0.6px;
-  margin: 16px 0px 0px 0px;
-  color: #ffffff;
-}
-
-.hero_button {
-  font-family: "OSReg";
-  font-size: 22px;
-  line-height: 20px;
-  letter-spacing: 0.7px;
-  color: #ffffff;
-  background-color: #005bff;
-  height: 64px;
-  width: 208px;
-  margin: 32px 0px 0px 0px;
-  border: 0px;
-  border-radius: 8px;
 }

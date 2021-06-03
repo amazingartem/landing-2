@@ -9,7 +9,7 @@
 .header__navigation {
   display: flex;
   justify-content: space-between;
-  font-family: "OSReg";
+  font-family: var(--f-reg);
   font-size: 16px;
   line-height: 20px;
   max-width: 520px;
@@ -17,12 +17,12 @@
 }
 
 .header__tagline {
-  font-family: "OSBold";
+  font-family: var(--f-bold);
   font-size: 22px;
   line-height: 26px;
 }
 
 .header__navigationLink {
   text-decoration: none;
-  color: #001a34;
+  color: var(--c-midnight);
 }

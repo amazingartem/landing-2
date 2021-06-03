@@ -1,15 +1,15 @@
 @font-face {
-    font-family: 'OSBold';
-    src: url(/font/OpenSans-Bold.ttf);
-    font-weight: bold;
+  font-family: "OSBold";
+  src: url(/landing-2/font/OpenSans-Bold.ttf);
+  font-weight: bold;
 }
 
 @font-face {
-    font-family: 'OSLight';
-    src: url(/font/OpenSans-Light.ttf);
+  font-family: "OSLight";
+  src: url(/landing-2/font/OpenSans-Light.ttf);
 }
 
 @font-face {
-    font-family: 'OSReg';
-    src: url(/font/OpenSans-Regular.ttf);
+  font-family: "OSReg";
+  src: url(/landing-2/font/OpenSans-Regular.ttf);
 }
