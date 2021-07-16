@@ -4,6 +4,8 @@
   justify-content: space-between;
   align-items: center;
   min-height: 124px;
+  max-width: 100%;
+  width: 1600px;
 }
 
 .header__navigation {

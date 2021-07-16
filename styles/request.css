@@ -1,0 +1,28 @@
+.request {
+  grid-area: request;
+  min-height: 956px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--c-aqua-haze);
+  background-size: 100%;
+}
+
+.request__header {
+  font-size: 46px;
+  line-height: 54px;
+  text-align: center;
+  margin: 0 0 64px;
+}
+
+.request__form {
+  max-width: 464px;
+  width: 100%;
+  margin-bottom: 64px;
+}
+
+.request__formElement {
+  margin-bottom: 32px;
+}
