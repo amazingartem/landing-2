@@ -93,6 +93,10 @@
   background-color: var(--c-ozon-blue-50);
 }
 
+.select__text--notActive {
+  color: var(--c-dark-space);
+}
+
 .select__dropdowItem:last-of-type {
   border-bottom: none;
 }
